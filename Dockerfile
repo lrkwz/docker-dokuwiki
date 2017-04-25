@@ -1,4 +1,4 @@
-FROM nerka/docker-dokuwiki
+FROM nerka/docker-dokuwiki:alpine_edge_plugins_1.3
 
 RUN apk update && apk add php7-json
 RUN mkdir /plugins/
