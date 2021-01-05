@@ -1,5 +1,8 @@
 version: '3'
 services:
-    wiki:
-        build: .
-        image: lrkwz/docker-dokuwiki
+  wiki:
+    build: .
+    image: lrkwz/docker-dokuwiki
+    ports:
+      - "8081:80"
+
